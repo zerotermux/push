@@ -1,0 +1,21 @@
+{
+  "name": "wanzstore",
+  "version": "1.3.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "code": "rm -rf ./data/auth && rm -rf ./data/store.json && echo '[]' > ./data/users.json && node index.js --number",
+    "qr": "rm -rf ./data/auth && rm -rf ./data/store.json && echo '[]' > ./data/users.json && node index.js",
+    "start": "node index --number"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "link-preview-js": "^3.0.5",
+    "node-webpmux": "^3.2.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
